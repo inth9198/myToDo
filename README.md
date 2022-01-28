@@ -20,4 +20,5 @@
   * 영역 구분
   * 배경화면 사이즈 조절
 
-![css 배치](https://user-images.githubusercontent.com/53827482/151547287-bb9d5a93-9c5a-4165-957e-7890d28f8f08.png)
+
+![css 배치](https://user-images.githubusercontent.com/53827482/151548102-7ddbc01e-d2fa-4972-a7b4-4aa1770ff16c.png)
