@@ -9,4 +9,4 @@
 <h3>ver2.0</h3>
 
 * img 추가
-* index.html 주석 
+* index.html 주석, 폰트 
