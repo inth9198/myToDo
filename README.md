@@ -19,3 +19,5 @@
   * 전체 영역 기본 설정: 폰트, 글자 색 등
   * 영역 구분
   * 배경화면 사이즈 조절
+
+![css 배치](https://user-images.githubusercontent.com/53827482/151547287-bb9d5a93-9c5a-4165-957e-7890d28f8f08.png)
