@@ -8,5 +8,9 @@
 
 <h3>ver2.0</h3>
 
-* img 추가
-* index.html 주석, 폰트 
+* img
+  * 기존 이미지 제거 및 새로운 이미지 추가
+* index.html
+  * 주석, 폰트 추가
+* style.css
+  * 글자 여백, 색 변경
