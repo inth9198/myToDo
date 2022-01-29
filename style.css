@@ -79,6 +79,11 @@ input, button{
 #quote{
     width:896px;  /*4px 추가해야 함*/
     height: 100px;
+    font-size: 25px;
+    font-style: italic;
+}
+.author{
+    display: block;
 }
 
 /* right 영역 */
@@ -88,6 +93,38 @@ input, button{
     height:800px;
 }
 
+/* 캘린더 영역 */
+#calendar>:first-child{
+    width:896px;  /*4px 추가해야 함*/
+    text-align: center;
+}
+
+#calendarTable{
+    width:896px;  /*4px 추가해야 함*/
+    height: 750px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+
+#yearMonth, #last, #next{
+    font-size: 35px;
+}
+
+.saturday{
+    color: blue;
+}
+
+.sunday{
+    color: red;
+}
+
+.today{
+    color: purple;
+}
+
 /* bottom 영역 */
 #bottom{
     width:1800px;
@@ -95,11 +132,11 @@ input, button{
     text-align:center;
 }
 
-/* body>bgImage */
+/* 배경 */
 .bgImage{
   position: absolute;
   margin: 0 auto;
-  width: 1920px;;
-  height: 100%;
+  width: 1920px;
+  height: 969px;
   z-index: -1;
 }
