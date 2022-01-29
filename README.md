@@ -31,10 +31,14 @@
   * 캘린더 스타일 추가
   * 명언 글 스타일 변경
   * 저자 다음 칸으로 이동
+  * ❗ border 제거
 * calendar.js
   * 추가
+  * ❗ 토요일, 일요일, 오늘 글자 색 변경해야 함
+  * ❗ 1월에서 2월로 넘어갈 때 3월로 넘어 감
 * quote.js
   * 저자의 classList 추가
+
   
   <br>  <br>
 ![css 배치](https://user-images.githubusercontent.com/53827482/151548102-7ddbc01e-d2fa-4972-a7b4-4aa1770ff16c.png)
