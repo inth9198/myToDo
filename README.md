@@ -20,7 +20,9 @@
   * 전체 영역 기본 설정: 폰트, 글자 색 등
   * 영역 구분
   * 배경화면 사이즈 조절
+<br>
 
+![css 배치](https://user-images.githubusercontent.com/53827482/151548102-7ddbc01e-d2fa-4972-a7b4-4aa1770ff16c.png)
 
 <h2></h2>
 <h5>22.01.29</h5>
@@ -40,5 +42,7 @@
   * 저자의 classList 추가
 
   
-  <br>  <br>
-![css 배치](https://user-images.githubusercontent.com/53827482/151548102-7ddbc01e-d2fa-4972-a7b4-4aa1770ff16c.png)
+  <br>
+  
+  ![1-29](https://user-images.githubusercontent.com/53827482/151666292-287a3254-ee56-4445-9eaa-05b9cae878da.png)
+ 
