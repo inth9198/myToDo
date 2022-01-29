@@ -46,8 +46,24 @@
         <!-- 오른쪽 -->
         <div id="right">
             <!-- 5. 캘린더 -->
-            <div id="calender">
-                <h1>calender</h1>
+            <div id="calendar">
+                <h1>Calendar</h1>
+                <table id="calendarTable">
+                    <tr>
+                        <td><label onclick="lastMonth()" id="last" ><</label></td>
+                        <td colspan="5" id="yearMonth"></td>
+                        <td><label onclick="nextMonth()" id="next">></label></td>
+                    </tr>
+                    <tr>
+                        <td class="sunday"> 일 </td>
+                        <td> 월 </td>
+                        <td> 화 </td>
+                        <td> 수 </td>
+                        <td> 목 </td>
+                        <td> 금 </td>
+                        <td class="saturday"> 토 </td>
+                    </tr>
+                </table>
             </div>
         </div>
 
@@ -66,6 +82,7 @@
         <script src="js/background.js"></script>
         <script src="js/todo.js"></script>
         <script src="js/weather.js"></script>
+        <script src="js/calendar.js"></script>
     </div>
 </body>
 </html>
