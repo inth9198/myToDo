@@ -18,10 +18,10 @@ function deleteToDo(event){
 }
 
 function calculateDate(date){
-    const setDate = new Date(`${date}T00:00:00+0000`);
+    const setDate = new Date(`${date}T00:00:00+0001`);
     const now = new Date();
     const distance = setDate.getTime() - now.getTime();
-    const day = Math.ceil(distance/(1000*60*60*24));
+    const day = Math.floor(distance/(1000*60*60*24));
     return day;
 }
 
