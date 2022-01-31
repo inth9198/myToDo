@@ -45,4 +45,13 @@
   <br>
   
   ![1-29](https://user-images.githubusercontent.com/53827482/151666292-287a3254-ee56-4445-9eaa-05b9cae878da.png)
- 
+ <h2></h2>
+<h5>22.01.31</h5>
+
+* index.html
+  * 캘린더 추가
+* style.css
+  * D-day 옵션 추가
+
+  
+  <br>
