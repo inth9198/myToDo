@@ -140,3 +140,16 @@ input, button{
   height: 969px;
   z-index: -1;
 }
+/* 날짜 선택 영역 */
+
+input[type="date"]::-webkit-clear-button, input[type="date"]::-webkit-inner-spin-button { 
+    display: none; 
+   } 
+   input[type="date"]::-webkit-calendar-picker-indicator { 
+    color: red; 
+   } 
+   input[type="date"] { 
+    background: grey; 
+    color: white; 
+    
+}
