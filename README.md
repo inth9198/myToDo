@@ -49,9 +49,9 @@
 <h5>22.01.31</h5>
 
 * index.html
-  * 캘린더 추가
-* style.css
   * D-day 옵션 추가
+* style.css
+  * D-day 스타일 추가
 
   
   <br>
