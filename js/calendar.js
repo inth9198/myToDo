@@ -4,18 +4,6 @@ const yearMonth = document.getElementById("yearMonth");
 let today = new Date();
 let date = new Date();
 
-//지난 달
-function lastMonth(){
-    today = new Date(today.getFullYear(), today.getMonth() -1,  
-        today.getMonth() - 1, today.getDate());
-        calendarPaint();
-}
-//다음 달
-function nextMonth(){
-    today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
-    calendarPaint();
-}
-
 // 캘린더 생성
 function calendarPaint(){
     //년도, 월 출력 
@@ -57,11 +45,23 @@ function calendarPaint(){
             row = calendarTable.insertRow();// 줄 추가
         }
         //today 계산
-        if(today.getFullYear()==date.getFullYear()&&today.getMonth()==date.getMonth()&&i==date.getDate()) 
+        if(today.getFullYear() == date.getFullYear() &&
+        today.getMonth() == date.getMonth() && i==date.getDate()) 
         {
             cell.classList.add("today");
         }
     }
+}
+//지난 달
+function lastMonth(){
+    today = new Date(today.getFullYear(), today.getMonth() -1,  
+        today.getMonth() - 1, today.getDate());
+        calendarPaint();
+}
+//다음 달
+function nextMonth(){
+    today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
+    calendarPaint();
 }
 
 calendarPaint();
